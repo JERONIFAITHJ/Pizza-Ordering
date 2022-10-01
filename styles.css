@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:fantasy;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:linear-gradient(to right, #232526, #414345);
+}
+.container{
+    width: 70%;
+    margin: 20px auto;
+    color: white !important;
+}
+input{
+    display: block;
+    margin: auto;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 768px){
+    input{
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 769px){
+    input{
+        width: 50%;
+    }
+}
+button{
+    padding: 10px 40px;
+    background-color: violet;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+}
+.cardStyle{
+    border: 3px solid slategray !important;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.container div p{
+    padding: 15px;
+}
+#inputField{
+    text-align: center;
+    border: none;
+}
+.status-clear{
+    background-color: lightgreen;
+    color: #232526;
+}
+.no-order-ID{
+    display: none;
+}
+p{
+    margin-bottom: 0 !important;
+}
